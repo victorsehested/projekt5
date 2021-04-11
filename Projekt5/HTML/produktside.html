@@ -1,13 +1,18 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" type="text/css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/produktside.css">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
     <meta charset="utf-8">
     <title></title>
   </head>
   <body>
     <header>
-        <a href="projekt5.html" class="header-brand">Trædrejeren</a>
-        <nav>
+        <a href="projekt5.html" class="header-brand"><h1>Den Fynske <br> Trædrejer</h1></a>
+        <nav class="hide-on-mobile">
             <ul>
                 <li><a href="#">Webshop</a></li>
                 <li><a href="#">Kurser</a></li>
@@ -17,24 +22,55 @@
             </ul>
             <a href="#" class="header-kontakt">Kontakt</a>
         </nav>
+
+        <!-- dropdown menu til mobilversion -->
+        <div class="topnav hide-on-com" id="myTopnav">
+          <a href="#">Webshop</a>
+          <a href="#">Kurser</a>
+          <a href="#">Co-create</a>
+          <a href="#">Om mig</a>
+          <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+          </a>
+        </div>
+        <script src="../nav2.js" defer></script>
     </header>
 
+    <main>
+      
+    </main>
 
     <footer>
-        <div class="social-media">
-            <a href="#">
-                <img src="../IMG/facebook-logo.png">
-            </a>
-
-            <a href="#">
-                <img src="../IMG/mail-logo.png">
-            </a>
-
-            <a href="#">
-                <img src="../IMG/youtube-logo.png">
-            </a>
+      <div class="container2">
+        <div class="col">
+          <ul>
+            <li class="bold">Kontakt</li>
+            <li>Kundeservice</li>
+            <li>FAQ</li>
+            <li>Job og karriere</li>
+          </ul>
         </div>
+        <div class="col">
+          <ul>
+            <li class="bold">Betalingsmuligheder</li>
+            <li><i class="fab fa-cc-mastercard icon"></i></li>
+            <li><i class="fab fa-cc-visa icon"></i></li>
+          </ul>
+        </div>
+        <div class="col">
+          <ul>
+            <li class="bold">Følg os</li>
+            <li><i class="fab fa-instagram icon"></i></li>
+            <li><i class="fab fa-facebook-square icon"></i></li>
+          </ul>
+        </div>
+      </div>
 
+      <p id="little">
+        Vilkår og betingelser | GDPR og personoplysninger | Cookiepolitik
+        <br />
+        Den fynske trædrejer 2021 Alle rettigheder forbeholdt
+      </p>
     </footer>
   </body>
 </html>
