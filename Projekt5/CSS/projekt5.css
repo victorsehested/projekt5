@@ -5,6 +5,8 @@
     margin: 0;
 }
 
+/* #region Mobil design */
+
 body{
     background-color: grey;
 }
@@ -87,10 +89,20 @@ footer{
 } 
 
 .social-media{
-    width: 50px;
-    height: 50px;
+    float: left;
     
+}  
+
+.facebook{
+    padding-right: 65px;
 }
 
+.mail{
+    padding-right: 65px;
+}
 
+/* #endregion */ 
 
+/* #region Desktop design */
+
+/* #endregion */
