@@ -115,8 +115,26 @@ footer{
         padding-left: 50px;
     } 
 
-    nav{
-        display: block;
+    header nav{
+        display: inline-block;
+    } 
+
+    header nav ul{
+        float: left;
+        list-style: none;
+        display: inline-block;
+    }
+    header nav ul li a{ 
+        font-family: 'Open Sans';
+        color: #232A2D;
+        font-size: 14px;
+        font-weight: 500; 
+        text-decoration: none;
+        display: inline;
+    } 
+    
+    header nav ul li a:hover{
+        border-bottom: 1px  #232A2D solid;
     }
 
 }
