@@ -63,6 +63,10 @@ nav{
     text-shadow: 2px 2px 8px #111;
 } 
 
+.kontakt-btn{
+    display: none;
+}
+
 .box-1,.box-2,.box-3,.box-4,.box-5,.box-6{
     margin: 16px 16px 0;
     width: calc(100%-32px);
@@ -105,6 +109,7 @@ footer{
 
 /* #region Desktop design */
 
+
 @media only screen and (min-width: 1000px) {
 
     header .header-brand{
@@ -112,15 +117,15 @@ footer{
         font-size: 30px;
         color: #111;
         text-align: left;
-        padding-left: 50px;
+        padding-left: 140px;
     } 
 
     header nav{
-        display: inline-block;
+        display: flex;
     } 
 
     header nav ul{
-        float: left;
+        float: right;
         list-style: none;
         display: inline-block;
     }
@@ -136,6 +141,37 @@ footer{
     header nav ul li a:hover{
         border-bottom: 1px  #232A2D solid;
     }
+
+    .per-banner{
+        height: 800px;
+    }
+    
+    .per-banner h2{
+        font-size: 45px;
+        font-weight: 500;
+        padding-top: 90px;
+        text-align: left;
+        padding-left: 100px;
+    } 
+    
+    .per-banner h1{
+        font-size: 18px;
+        text-align: left;
+        padding-left: 100px;
+    } 
+
+    .kontakt-btn{
+        display: block;
+        width: 120px;
+        height: 40px;
+        border-radius: 5px;
+        margin-left: 100px;
+        margin-top: 40px;
+        border:2px solid #232A2D;
+        background-color: #232A2D;
+        color: #EEF9FD;
+    }
+
 
 }
 /* #endregion */
