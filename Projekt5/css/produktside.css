@@ -10,7 +10,7 @@
 }
 
 body {
-  background-image: linear-gradient(rgba(255, 250, 245, 0.9), rgba(252, 252, 252, 0.5)), url('../img/background.jpg');
+  background-image: linear-gradient(rgba(255, 250, 245, 1), rgba(252, 252, 252, 0.7)), url('../img/background.jpg');
 }
 
 .wrapper > * {
@@ -26,7 +26,7 @@ ul {
 h1 {
   font-family: 'Poppins', sans-serif;
   font-weight: semi-bold;
-  font-size: 1.5rem;
+  font-size: 1.3rem;
   color: #000000;
   padding: 2%;
 }
@@ -66,6 +66,45 @@ a {
 
 a:hover {
   opacity: 0.5;
+}
+
+.img {
+  width: 90vw;
+  margin-left: 5vw;
+}
+
+.antal {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  background-color: white;
+  width: 80vw;
+  margin: 10vw;
+  padding: 3%;
+  border-radius: 35px;
+}
+
+.tilføj {
+  border-style: solid;
+  border-color: black;
+  width: 80vw;
+  margin: 10vw;
+  border-radius: 35px;
+  text-align: center;
+}
+
+footer {
+  font-family: 'Poppins', sans-serif;
+  background-color:  #A16D4E;
+  width: 100%;
+  margin: 10% 0% 0% 0%;
+  padding: 2%;
+}
+
+#little {
+  font-size: 70%;
+  text-align: center;
 }
 
 /*navigation*/
@@ -139,58 +178,21 @@ a:hover {
   .topnav.responsive a {
     float: right;
     display: block;
-    font-size: 200%;
+    font-size: 150%;
     font-family: 'Poppins', sans-serif;
     color: #000000;
     margin: 15px;
   }
+}
 
-  @media only screen and (max-width: 500px){
-    .hide-on-mobile {
-      display: none;
-    }
-
-  .img {
-    width: 90vw;
-    margin-left: 5vw;
+@media only screen and (max-width: 900px){
+  .hide-on-mobile {
+    display: none;
   }
-
-  .antal {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
-    background-color: white;
-    width: 80vw;
-    margin: 10vw;
-    padding: 3%;
-    border-radius: 35px;
-  }
-
-  .tilføj {
-    border-style: solid;
-    border-color: black;
-    width: 80vw;
-    margin: 10vw;
-    border-radius: 35px;
-    text-align: center;
-  }
-
-  footer {
-    font-family: 'Poppins', sans-serif;
-    background-color:  #A16D4E;
-    width: 100%;
-    margin: 10% 0% 0% 0%;
-    padding: 2%;
-  }
-
-  #little {
-    font-size: 70%;
-    text-align: center;
-  }
+}
 
   /*ipad*/
-@media only screen and (min-width: 500px){
+@media only screen and (min-width: 501px){
   .container {
     background-color: #FFFAF5;
     display: flex;
@@ -207,6 +209,36 @@ a:hover {
   }
 
   .img {
-    width: 100vw;
+    margin-top: 15vh;
+  }
+
+  .nav-com {
+    font-size: 125%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    text-align: center;
+    background-color: #FFFAF5;
+    text-decoration: none;
+    width: 50vw;
+    margin-right: 5vw;
+  }
+
+  .brand {
+    width: 20vw;
+  }
+}
+
+@media only screen and (min-width: 900px){
+  .hide-on-mobile {
+    display: show;
+  }
+
+  .img {
+    width: 40vw;
+  }
+
+  .nav-com {
+    width: 40vw;
   }
 }
