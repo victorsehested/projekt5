@@ -190,16 +190,16 @@ footer{
         width: 100%;
         height: 500px;
         display: flex;
-        padding: 100px 0 0 400px;
+        padding: 5% 0 0 19%;
         background-color: #fff;
     }
 
     .produkt1{
-        padding-right: 200px;
+        padding-right: 10%;
     }
 
     .produkt2{
-        padding-right: 200px;
+        padding-right: 10%;
     }
 
     .produkt-menu h2{
