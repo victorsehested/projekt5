@@ -4,17 +4,8 @@
   margin: 0px;
 }
 
-.wrapper > * {
-/* > betyder elementer under der hvor der står wrapper og * betyder alle elementer*/
-  font-family: 'Poppins', sans-serif;
-}
-
 body {
   background-image: linear-gradient(rgba(255, 250, 245, 1), rgba(252, 252, 252, 0.7)), url('../img/background.jpg');
-}
-
-.wrapper > * {
-    font-family: 'Poppins', sans-serif;
 }
 
 ul {
@@ -71,6 +62,11 @@ a:hover {
 .img {
   width: 90vw;
   margin-left: 5vw;
+}
+
+.træbord {
+  float:left;
+  margin-right:48vw;
 }
 
 .antal {
@@ -212,6 +208,11 @@ footer {
     margin-top: 15vh;
   }
 
+  .træbord {
+    margin-left: 10vw;
+    margin-right: 52vw;
+  }
+
   .nav-com {
     font-size: 125%;
     display: flex;
@@ -234,8 +235,61 @@ footer {
     display: show;
   }
 
+  .wrapper {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .container2 {
+    padding: 0px;
+    margin-top: 25vh;
+    margin-left: 2%;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: left;
+    width: 30vw;
+    height: 40vh;
+  }
+
+  .træbord {
+    margin: 0% 5% 1% 5%;
+    padding: 0px;
+  }
+
+  .pris {
+    padding: 0px;
+    margin: 2% 5% 5% 5%;
+    clear: both;
+  }
+
+  .antal {
+    margin: 10% 5% 5% 5%;
+    width: 20vw;
+  }
+
+  .tilføj {
+    margin: 5%;
+    width: 20vw;
+  }
+
   .img {
-    width: 40vw;
+    width: 30vw;
+    padding: 0px;
+  }
+
+  .bord1 {
+    grid-area: bord1;
+  }
+
+  .bord2 {
+    grid-area: brod2;
+    margin-left: 0px;
+  }
+
+  .info {
+    margin-left: 3.5vw;
+    margin-top: 7vh;
   }
 
   .nav-com {
