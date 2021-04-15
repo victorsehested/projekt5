@@ -10,18 +10,18 @@
     <title></title>
   </head>
   <body>
-    <header class="container">
-        <a href="index.html" class="header-brand"><h1>Den Fynske <br> Trædrejer</h1></a>
-        <nav class="hide-on-mobile">
-            <ul>
-                <li><a href="#">Webshop</a></li>
-                <li><a href="#">Kurser</a></li>
-                <li><a href="#">Co-create</a></li>
-                <li><a href="#">Om mig</a></li>
-                <li><a href="#"><i class="fas fa-shopping-cart"></i></a></li>
-            </ul>
-            <a href="#" class="header-kontakt">Kontakt</a>
+    <header>
+      <div class="container">
+        <a href="index.html"><h1 class="brand">Den Fynske <br> Trædrejer</h1></a>
+        <nav class="hide-on-mobile nav-com">
+          <a href="#">Webshop</a></li>
+          <a href="#">Kurser</a></li>
+          <a href="#">Co-create</a></li>
+          <a href="#">Om mig</a></li>
+          <a href="#"><i class="fas fa-shopping-cart"></i></a></li>
         </nav>
+      </div>
+    </header>
 
         <!-- dropdown menu til mobilversion -->
         <div class="topnav hide-on-com" id="myTopnav">
@@ -35,30 +35,39 @@
           </a>
         </div>
         <script src="../nav2.js" defer></script>
-    </header>
 
     <main>
-      <!--her skal indsættes slideshow med de to billeder-->
-      <img class="img" src="../img/bordbillede.png" alt="bord">
-      <h2 style="float:left; margin-right:48vw;">Træbord</h2>
-      <h2>200 kr</h2>
-      <div>
-        <ul class="antal">
-          <li><p>Antal</p></li>
-          <li><i class="fas fa-chevron-down"></i></li>
-        </ul>
+      <div class="wrapper">
+        <!--her skal indsættes slideshow med de to billeder på mobilversion-->
+        <img class="img bord1" src="../img/bordbillede.png" alt="træbord">
+        <img class="hide-on-mobile img bord2" src="../img/bordbillede2.png" alt="træbord">
+        <div>
+          <ul class="container2">
+            <li><h2 class="træbord">Træbord</h2></li>
+            <li><h2 class="pris">200 kr</h2></li>
+            <li><div>
+                  <ul class="antal">
+                  <li><p>Antal</p></li>
+                  <li><i class="fas fa-chevron-down"></i></li>
+                  </ul>
+                </div>
+            </li>
+            <li><div class="tilføj"><p>Tilføj til indkøbskurv</p></div>
+            </li>
+          </ul>
+        </div>
       </div>
-      <div class="tilføj">
-        <p>Tilføj til indkøbskurv</p>
+      <div class="info">
+        <h2>Produktinformation</h2>
+        <h3>Materiale</h3>
+        <p>bla bla bla</p>
+        <h3>Mål</h3>
+        <p>bla bla bla</p>
+        <h3>Fragt og levering</h3>
+        <p>bla bla bla</p>
+        <h3>Anmeldelser</h3>
+        <p><i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star"></i></p>
       </div>
-      <h3>Materiale</h3>
-      <p>bla bla bla</p>
-      <h3>Mål</h3>
-      <p>bla bla bla</p>
-      <h3>Fragt og levering</h3>
-      <p>bla bla bla</p>
-      <h3>Anmeldelser</h3>
-      <p><i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star"></i></p>
     </main>
 
     <footer>
