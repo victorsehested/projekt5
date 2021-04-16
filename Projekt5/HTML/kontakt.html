@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="da">
+
+<head>
+    <link rel="stylesheet" href="../css/kontakt.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+        type="text/css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta charset="utf-8" />
+    <title>Kontakt</title>
+    <script src="../kontakt.js" defer></script>
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <a href="index.html">
+                <h1 class="brand">
+                    Den Fynske <br />
+                    Trædrejer
+                </h1>
+            </a>
+            <nav class="hide-on-mobile nav-com">
+                <a href="#">Webshop</a>
+                <a href="#">Kurser</a>
+                <a href="#">Co-create</a>
+                <a href="#">Om mig</a>
+                <a href="#"><i class="fas fa-shopping-cart"></i></a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- dropdown menu til mobilversion -->
+    <div class="topnav hide-on-com" id="myTopnav">
+        <a href="#">Webshop</a>
+        <a href="#">Kurser</a>
+        <a href="#">Co-create</a>
+        <a href="#">Om mig</a>
+        <a href="#"><i class="fas fa-shopping-cart"></i></a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+        </a>
+    </div>
+    <script src="../nav2.js" defer></script>
+
+    <main>
+        <div class="kontakt-wrapper">
+            <div class="kontakt-tekst kontakt-cont1">
+                <h1 class="kontakt-p1">Kontakt</h1>
+                <p class="kontakt-p1">Har du spørgsmål til mit håndværk eller bare er<br>
+                    interesseret i at hyre mig til at trædreje en specifik idé?<br>
+                    Så kontakt mig meget gerne så kan vi starte en dialog!</p>
+
+                <p>
+                    Du kan også ringe til mig på<br>
+                    <a href="tel:+4528741130"><b>+45 28 74 11 30</b></a>
+                </p>
+            </div>
+            <div class="kontakt-form kontakt-cont2">
+                <div id="error"></div>
+                <form id="form" action="/" method="GET">
+                    <div>
+                        <label for="name">Navn</label> <br>
+                        <input id="navn" name="navn" type="text" placeholder="Navn">
+                    </div>
+                    <div>
+                        <label for="email">Email</label> <br>
+                        <input id="email" name="email" type="email" placeholder="Email">
+                    </div>
+                    <div>
+                        <label for="message">Besked</label> <br>
+                        <input id="besked" name="besked" type="message" placeholder="Besked">
+                    </div>
+                    <button type="submit">Submit</button>
+                </form>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p style="font-size: 0.7rem">
+            BUTIKKEN
+            <br />
+            Min butik ligger helt nede til vandet og du er mere end velkommen til at
+            kigge forbib
+            <br />
+            Vestre Havnevej 23, 5400 Bogense
+            <br />
+            FORSENDELSE
+            <br />
+            Pakken fremsende med GLS - Porto er indbefatter i generelle
+            omkostninger.
+            <br />
+            RETURNERINGSPOLITIK
+            <br />
+            Tilbagesendelsse er portofri ved brug af teksten : RETUR TIL AFSENDER.
+            <br />
+            SOCIALE MEDIER
+        </p>
+
+        <p id="little">
+            Vilkår og betingelser | GDPR og personoplysninger | Cookiepolitik
+            <br />
+            Den fynske trædrejer 2021 Alle rettigheder forbeholdt
+        </p>
+    </footer>
+    <script src="../carousel.js"></script>
+</body>
+
+</html>
