@@ -8,7 +8,7 @@
 /* #region Mobil design */
 
 body{
-    background-color: grey;
+    background-image: url(../IMG/bg-flip.png);
 }
 
 header{
@@ -71,7 +71,7 @@ nav{
     margin: 16px 16px 0;
     width: calc(100%-32px);
     height: 100px;
-    background-color: lightblue;
+    
 }
 
 .box-1 h3,.box-2 h3,.box-3 h3,.box-4 h3,.box-5 h3,.box-6 h3{
@@ -127,7 +127,7 @@ footer{
     header nav ul{
         float: right;
         list-style: none;
-        display: inline-block;
+        
     }
     header nav ul li a{ 
         font-family: 'Open Sans';
@@ -191,7 +191,7 @@ footer{
         height: 500px;
         display: flex;
         padding: 5% 0 0 19%;
-        background-color: #fff;
+        
     }
 
     .produkt1{
@@ -249,7 +249,6 @@ footer{
     .webshop-btn{
         width: 100%;
         height: 100px;
-        background-color: #fff;
         padding-left: 40%;
     }
 
@@ -257,37 +256,7 @@ footer{
         width: 100%;
         height: 300px;
         margin-top: 3%;
-        background-color: #fff;
-    }
-
-    .historie-tekst{
-        font-family: 'Open Sans';
-        color: #111;
-        text-align: left;
-        float: right;
-        padding-right: 5%;
-    }
-
-    .historie-tekst h2{
-        font-size: 22px;
-        font-weight: 400;
-        padding-bottom: 20px;
-    }
-
-    .historie-tekst h3{
-        font-size: 16px;
-        font-weight: 400;
-    }
-
-    .historie-billede{
-        padding: 2% 0 0 10%;
-    }
-
-        .historie-section{
-        width: 100%;
-        height: 300px;
-        margin-top: 3%;
-        background-color: #fff;
+        
     }
 
     .historie-tekst{
@@ -314,12 +283,13 @@ footer{
     }
 
     
+    
 
     .udfordringer-section{
         width: 100%;
         height: 300px;
         margin-top: 3%;
-        background-color: #fff;
+        
     }
 
     .udfordringer-tekst{
@@ -348,6 +318,109 @@ footer{
   
 
 
+    .kursus-section{
+        width: 100%;
+        height: 350px;
+        margin-top: 3%;
+        
+    }
+
+    .kursus-tekst{
+        font-family: 'Open Sans';
+        color: #111;
+        text-align: left;
+        float: right;
+        padding-right: 10%;
+        padding-top: 5%;
+    }
+
+    .kursus-tekst h2{
+        font-size: 22px;
+        font-weight: 400;
+        padding-bottom: 20px;
+    }
+
+    .kursus-tekst h3{
+        font-size: 16px;
+        font-weight: 400;
+    }
+
+    .kursus-video{
+        padding: 2% 0 0 10%;
+    }
+
+
+
+    .read-more-btn{
+        display: inline-block;
+        width: 200px;
+        height: 40px;
+        border-radius: 5px;
+        font-size: 16px;
+        font-family: 'Open Sans';
+        border:3px solid #315343;
+        background-color: #315343;
+        color: #EEF9FD;
+        margin-right: 5%;
+    }
+
+    .kontakt-btn{
+        display: inline-block;
+        width: 200px;
+        height: 40px;
+        border-radius: 5px;
+        font-size: 16px;
+        font-family: 'Open Sans';
+        border:3px solid #315343;
+        background-color: #EEF9FD;
+        color: #315343;
+        
+    }
+
+    footer{
+        width: 100%;
+        height: 300px;
+        background-color: #A16D4E;
+    }
+
+    .facebook, .mail, .youtube{
+        display: none;
+    }
+
+    footer h2{
+        font-family: 'Open Sans';
+        font-weight: 500;
+        font-size: 18px;
+        color: #fff;
+        padding-bottom: 5%;
+    }
+
+    footer h3{
+        font-family: 'Open Sans';
+        font-weight: 300;
+        font-size: 16px;
+        color: #fff;
+    }
+
+    .footer1{
+        width: 20%;
+        float: left;
+        display: inline-block;
+        margin-left: 10%;
+    }
+
+    .footer2{
+        width: 20%;
+        display: inline-block;
+        margin-left: 10%;
+    }
+
+    .footer3{
+        width: 20%;
+        float: right;
+        display: inline-block;
+        margin-right: 10%;
+    }
 
 
 }
