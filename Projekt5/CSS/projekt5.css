@@ -252,6 +252,99 @@ footer{
         background-color: #fff;
         padding-left: 40%;
     }
+
+    .historie-section{
+        width: 100%;
+        height: 300px;
+        margin-top: 3%;
+        background-color: #fff;
+    }
+
+    .historie-tekst{
+        font-family: 'Open Sans';
+        color: #111;
+        text-align: left;
+        float: right;
+        padding-right: 5%;
+    }
+
+    .historie-tekst h2{
+        font-size: 22px;
+        font-weight: 400;
+        padding-bottom: 20px;
+    }
+
+    .historie-tekst h3{
+        font-size: 16px;
+        font-weight: 400;
+    }
+
+    .historie-billede{
+        padding: 2% 0 0 10%;
+    }
+
+        .historie-section{
+        width: 100%;
+        height: 300px;
+        margin-top: 3%;
+        background-color: #fff;
+    }
+
+    .historie-tekst{
+        font-family: 'Open Sans';
+        color: #111;
+        text-align: left;
+        float: right;
+        padding-right: 5%;
+    }
+
+    .historie-tekst h2{
+        font-size: 22px;
+        font-weight: 400;
+        padding-bottom: 20px;
+    }
+
+    .historie-tekst h3{
+        font-size: 16px;
+        font-weight: 400;
+    }
+
+    .historie-billede{
+        padding: 2% 0 0 10%;
+    }
+
+    
+
+    .udfordringer-section{
+        width: 100%;
+        height: 300px;
+        margin-top: 3%;
+        background-color: #fff;
+    }
+
+    .udfordringer-tekst{
+        font-family: 'Open Sans';
+        color: #111;
+        text-align: left;
+        float: left;
+        padding-left: 10%;
+    }
+
+    .udfordringer-tekst h2{
+        font-size: 22px;
+        font-weight: 400;
+        padding-bottom: 20px;
+    }
+
+    .udfordringer-tekst h3{
+        font-size: 16px;
+        font-weight: 400;
+    }
+
+    .udfordringer-billede{
+        padding: 2% 0 0 22%;
+        float: left;
+    }
   
 
 
