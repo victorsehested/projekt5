@@ -15,6 +15,17 @@ h1 {
     margin-block-start: 0px;
 }
 
+button {
+  font-family: 'Poppins';
+  font-size: 20px;
+  padding: 1% 7% 1% 7%;
+  background-color: #315343;
+  color: #fffaf5;
+  border: 2px solid #315343;
+  border-radius: 15px;
+  margin-top: 10px;
+}
+
 .kontakt-wrapper{
     width: 85%;
     margin-top: 25vh;
@@ -54,10 +65,12 @@ h1 {
 
 #form input {
     height: 65px;
-    width: 584px;
+    width: 36.5rem;
+    padding-left: 25px;
     border: 2px solid #315343;
     border-radius: 15px;
     margin: 10px 0px 15px 0px
+    
 }
 
 #form textarea {
@@ -488,10 +501,16 @@ h1 {
       width: 40vw;
     }
   }
-  @media only screen and (min-width: 1400px) {
+  @media only screen and (max-width: 1700px) {
     .wrapper {
-      max-width: 1400px;
+      max-width: 1700px;
       margin: 0 auto;
+    }
+
+    .kontakt-p1 h1 {
+      font-family: 'Poppins';
+      font-weight: 400;
+      font-size: 51px;
     }
   }
   
