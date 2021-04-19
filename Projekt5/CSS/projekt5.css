@@ -1,8 +1,10 @@
 @import url('https://fonts.google.com/specimen/Open+Sans');
+@import url('https://fonts.google.com/specimen/Poppins');
 
 *{
     text-decoration: none; 
     margin: 0;
+    font-family: 'Poppins';
 }
 
 /* #region Mobil design */
@@ -12,13 +14,12 @@ body{
 }
 
 header{
-    background-color: lightgrey;
+    background-color: #fff;
     width: 100%;
     height: 100px;
 }
 
 header .header-brand{
-    font-family: 'Open Sans';
     font-size: 24px;
     font-weight: 900;
     color: #111;
@@ -35,16 +36,18 @@ nav{
 }
 
 .per-banner{
+
     width: 100%;
     height: calc(45vh - 100px);
-    background-image: url(../IMG/wood-banner.jpg);
+    background-image: url(../IMG/banner.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
 }
 
+
+
 .per-banner h1{
-    font-family: 'Open Sans';
     font-size: 36px;
     font-weight: 800;
     padding-top: 40px;
@@ -55,7 +58,6 @@ nav{
 } 
 
 .per-banner h2{
-    font-family: 'Open Sans';
     font-size: 16px;
     font-weight: 400;
     color: #fff;
@@ -75,7 +77,6 @@ nav{
 }
 
 .box-1 h3,.box-2 h3,.box-3 h3,.box-4 h3,.box-5 h3,.box-6 h3{
-    font-family: 'Open Sans';
     font-size: 28px;
     font-weight: 300;
     padding-top: 28px;
@@ -130,7 +131,6 @@ footer{
         
     }
     header nav ul li a{ 
-        font-family: 'Open Sans';
         color: #232A2D;
         font-size: 14px;
         font-weight: 500; 
@@ -203,7 +203,6 @@ footer{
     }
 
     .produkt-menu h2{
-        font-family: 'Open Sans';
         font-size: 28px;
         font-weight: 400;
         color: #111;
@@ -211,7 +210,6 @@ footer{
     }
 
     .produkt-menu h3{
-        font-family: 'Open Sans';
         font-size: 16px;
         font-weight: 400;
         color: #111;
@@ -225,7 +223,6 @@ footer{
         height: 40px;
         border-radius: 5px;
         font-size: 16px;
-        font-family: 'Open Sans';
         border:3px solid #315343;
         background-color: #EEF9FD;
         color: #315343;
@@ -239,7 +236,6 @@ footer{
         height: 45px;
         border-radius: 5px;
         font-size: 16px;
-        font-family: 'Open Sans';
         border:3px solid #315343;
         background-color: #315343;
         color: #EEF9FD;
@@ -260,7 +256,6 @@ footer{
     }
 
     .historie-tekst{
-        font-family: 'Open Sans';
         color: #111;
         text-align: left;
         float: right;
@@ -293,7 +288,6 @@ footer{
     }
 
     .udfordringer-tekst{
-        font-family: 'Open Sans';
         color: #111;
         text-align: left;
         float: left;
@@ -312,8 +306,8 @@ footer{
     }
 
     .udfordringer-billede{
-        padding: 2% 0 0 22%;
-        float: left;
+        padding: 3% 5% 0 0;
+        float: right;
     }
   
 
@@ -326,7 +320,6 @@ footer{
     }
 
     .kursus-tekst{
-        font-family: 'Open Sans';
         color: #111;
         text-align: left;
         float: right;
@@ -357,7 +350,6 @@ footer{
         height: 40px;
         border-radius: 5px;
         font-size: 16px;
-        font-family: 'Open Sans';
         border:3px solid #315343;
         background-color: #315343;
         color: #EEF9FD;
@@ -370,7 +362,6 @@ footer{
         height: 40px;
         border-radius: 5px;
         font-size: 16px;
-        font-family: 'Open Sans';
         border:3px solid #315343;
         background-color: #EEF9FD;
         color: #315343;
@@ -388,7 +379,6 @@ footer{
     }
 
     footer h2{
-        font-family: 'Open Sans';
         font-weight: 500;
         font-size: 18px;
         color: #fff;
@@ -396,7 +386,6 @@ footer{
     }
 
     footer h3{
-        font-family: 'Open Sans';
         font-weight: 300;
         font-size: 16px;
         color: #fff;
@@ -407,6 +396,10 @@ footer{
         float: left;
         display: inline-block;
         margin-left: 10%;
+    }
+
+    .footer1 img{
+        float: left;
     }
 
     .footer2{
@@ -420,6 +413,11 @@ footer{
         float: right;
         display: inline-block;
         margin-right: 10%;
+    }
+
+    .footer3 img{
+        float: left;
+        
     }
 
 
