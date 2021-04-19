@@ -11,17 +11,24 @@
 
 body{
     background-image: url(../IMG/bg-flip.png);
+    overflow-x: hidden;
+}
+
+.br-mobile{
+    display: static;
 }
 
 header{
     background-color: #fff;
     width: 100%;
+    display: inline-block;
     height: 100px;
+    
 }
 
 header .header-brand{
-    font-size: 24px;
-    font-weight: 900;
+    font-size: 28px;
+    font-weight: 400;
     color: #111;
     text-transform: uppercase;
     display: block;
@@ -43,26 +50,27 @@ nav{
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    
 }
 
 
 
 .per-banner h1{
     font-size: 36px;
-    font-weight: 800;
+    font-weight: 600;
     padding-top: 40px;
     padding-bottom: 40px;
-    color: #fff;
+    color: #111;
     text-align: center;
-    text-shadow: 2px 2px 8px #111;
+    
 } 
 
 .per-banner h2{
     font-size: 16px;
-    font-weight: 400;
-    color: #fff;
+    font-weight: 500;
+    color: #111;
     text-align: center;
-    text-shadow: 2px 2px 8px #111;
+    
 } 
 
 .banner-btn{
@@ -73,7 +81,7 @@ nav{
     margin: 16px 16px 0;
     width: calc(100%-32px);
     height: 100px;
-    
+    background-color: #315343;
 }
 
 .box-1 h3,.box-2 h3,.box-3 h3,.box-4 h3,.box-5 h3,.box-6 h3{
@@ -86,25 +94,78 @@ nav{
     text-transform: uppercase;
 }
 
+.produkt-menu{
+    display: none;
+}
+
+.webshop-btn{
+    display: none;
+}
+
+.historie-section, .udfordringer-section, .kursus-section{
+    display: none;
+}
+
 footer{
     width: calc(100% - 80px);
     padding: 40px 40px;
     margin-top: 20px;
-    background-color: lime;
+    background-color: #A16D4E;
 } 
 
-.social-media{
+.footer1{
+    color: #fff;
+    display: inline-block;
+}
+
+.footer1 img{
     float: left;
-    
-}  
-
-.facebook{
-    padding-right: 65px;
 }
 
-.mail{
-    padding-right: 65px;
+.footer1 h2{
+    font-size: 20px;
+    font-weight: 400;
 }
+
+.footer1 h3{
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.footer2{
+    color: #fff;
+}
+
+.footer2 h2{
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.footer2 h3{
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.footer3{
+    color: #fff;
+    display: inline-block;
+}
+
+.footer3 img{
+    float: left;
+}
+
+.footer3 h2{
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.footer3 h3{
+    font-size: 16px;
+    font-weight: 300;
+}
+
+
 
 /* #endregion */ 
 
@@ -113,29 +174,44 @@ footer{
 
 @media only screen and (min-width: 1000px) {
 
+
+    .br-mobile{
+        display: none;
+    }
+
     header .header-brand{
         font-weight: 400;
         font-size: 30px;
         color: #111;
         text-align: left;
         padding-left: 140px;
+        float: left;
     } 
 
+
+
     header nav{
-        display: flex;
+        display: block;
+        float: left;
     } 
 
     header nav ul{
-        float: right;
+        width: 100%;
         list-style: none;
+        margin: 12% 0 0 380%;
+    }
+
+    header nav ul li{
+        display: inline;
         
     }
+
     header nav ul li a{ 
         color: #232A2D;
         font-size: 14px;
         font-weight: 500; 
-        text-decoration: none;
-        display: inline;
+        text-decoration: none; 
+        padding-right: 3%;
     } 
     
     header nav ul li a:hover{
@@ -190,7 +266,7 @@ footer{
         width: 100%;
         height: 500px;
         display: flex;
-        padding: 5% 0 0 19%;
+        padding: 5% 0 0 22%;
         
     }
 
@@ -243,12 +319,14 @@ footer{
     }
 
     .webshop-btn{
+        display: block;
         width: 100%;
         height: 100px;
-        padding-left: 40%;
+        padding-left: 42%;
     }
 
     .historie-section{
+        display: block;
         width: 100%;
         height: 300px;
         margin-top: 3%;
@@ -281,6 +359,7 @@ footer{
     
 
     .udfordringer-section{
+        display: block;
         width: 100%;
         height: 300px;
         margin-top: 3%;
@@ -313,6 +392,7 @@ footer{
 
 
     .kursus-section{
+        display: block;
         width: 100%;
         height: 350px;
         margin-top: 3%;
