@@ -4,6 +4,24 @@ body {
     margin: 0px;
 }
 
+.transition-1 {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 101;
+  background-color: #000000;
+  opacity: 0;
+  pointer-events: none;
+  transition: 0.5s ease-out;
+}
+
+.transition-1.is-active {
+  opacity: 1;
+  pointer-events: all;
+}
+
 main {
     display: flex;
     justify-content: center;
