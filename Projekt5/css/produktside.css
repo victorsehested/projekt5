@@ -6,6 +6,7 @@
 
 body {
     background: url("../img/bg-flip.png");
+    height: 100vh;
 }
 
 .transition-1 {
@@ -80,8 +81,8 @@ a:hover {
   display: flex;
   flex-direction: column;
   padding: 50px;
-  height: 80vh;
 }
+
 .antal {
   display: flex;
   flex-direction: row;
@@ -382,7 +383,6 @@ a:hover {
 
   .wrapper {
     padding: 130px 50px 50px 50px;
-    height: 100vh;
   }
 
   .container2 {
