@@ -2,7 +2,7 @@
 @import url('https://fonts.google.com/specimen/Poppins');
 
 *{
-    text-decoration: none; 
+    text-decoration: none;
     margin: 0;
     font-family: 'Poppins';
     box-sizing: border-box
@@ -12,7 +12,12 @@
 
 body{
     background-image: url(../IMG/bg-flip.png);
-    
+
+}
+
+main {
+  margin-bottom: 20px;
+  height: 100vh;
 }
 
 .br-mobile{
@@ -23,12 +28,12 @@ body{
     display: none;
 }
 
-header{
+/*header{
     background-color: #fff;
     width: 100%;
     display: inline-block;
     height: 100px;
-    
+
 }
 
 header .header-brand{
@@ -41,11 +46,11 @@ header .header-brand{
     text-align: center;
     padding: 20px 0;
     padding-top: 30px;
-} 
+}
 
 nav{
     display: none;
-}
+}*/
 
 .per-banner{
 
@@ -55,7 +60,7 @@ nav{
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    
+
 }
 
 
@@ -67,16 +72,16 @@ nav{
     padding-bottom: 40px;
     color: #111;
     text-align: center;
-    
-} 
+
+}
 
 .per-banner h2{
     font-size: 16px;
     font-weight: 500;
     color: #111;
     text-align: center;
-    
-} 
+
+}
 
 .banner-btn{
     display: none;
@@ -111,12 +116,14 @@ nav{
     display: none;
 }
 
-footer{
-    width: calc(100% - 80px);
-    padding: 40px 40px;
+.footer{
+    width: 100%;
+    height: auto;
+    padding: 5%;
     margin-top: 20px;
+    margin-bottom: 0px;
     background-color: #A16D4E;
-} 
+}
 
 .footer1{
     color: #fff;
@@ -139,6 +146,7 @@ footer{
 
 .footer2{
     color: #fff;
+    display: inline-block;
 }
 
 .footer2 h2{
@@ -172,7 +180,7 @@ footer{
 
 
 
-/* #endregion */ 
+/* #endregion */
 
 /* #region Desktop design */
 
@@ -188,21 +196,21 @@ footer{
         display: static;
     }
 
-    header .header-brand{
+    /*header .header-brand{
         font-weight: 400;
         font-size: 30px;
         color: #111;
         text-align: left;
         padding-left: 140px;
         float: left;
-    } 
+    }
 
 
 
     header nav{
         display: block;
         float: left;
-    } 
+    }
 
     header nav ul{
         width: 100%;
@@ -212,20 +220,20 @@ footer{
 
     header nav ul li{
         display: inline;
-        
+
     }
 
-    header nav ul li a{ 
+    header nav ul li a{
         color: #232A2D;
         font-size: 14px;
-        font-weight: 500; 
-        text-decoration: none; 
+        font-weight: 500;
+        text-decoration: none;
         padding-right: 3%;
-    } 
-    
+    }
+
     header nav ul li a:hover{
         border-bottom: 1px  #232A2D solid;
-    }
+    }*/
 
 
 
@@ -233,20 +241,20 @@ footer{
     .per-banner{
         height: 800px;
     }
-    
+
     .per-banner h1{
         font-size: 45px;
         font-weight: 500;
         padding-top: 250px;
         text-align: left;
         padding-left: 100px;
-    } 
-    
+    }
+
     .per-banner h2{
         font-size: 18px;
         text-align: left;
         padding-left: 100px;
-    } 
+    }
 
     .banner-btn{
         display: block;
@@ -279,7 +287,7 @@ footer{
         height: 500px;
         display: flex;
         padding: 5% 0 0 22%;
-        
+
     }
 
     /* Slideshow af produkter */
@@ -293,15 +301,15 @@ footer{
 
       .mySlides {
         display: none;
-        
-      } 
+
+      }
 
       img{
           vertical-align: middle;
-      } 
+      }
 
       .inline {
-   
+
         float: left;
         width: 33.333333%;
     }
@@ -320,7 +328,7 @@ footer{
         transition: 0.6s ease;
         border-radius: 0 3px 3px 0;
         user-select: none;
-      } 
+      }
 
       .next {
         right: -100px;
@@ -334,7 +342,7 @@ footer{
 
       .prev:hover, .next:hover {
         background-color: rgba(0,0,0,0.8);
-      } 
+      }
 
 
 
@@ -348,7 +356,7 @@ footer{
         display: inline-block;
         transition: background-color 0.6s ease;
       }
-      
+
       .active, .dot:hover {
         background-color: #717171;
       }
@@ -364,7 +372,7 @@ footer{
         from {opacity: .4}
         to {opacity: 1}
       }
-      
+
       @keyframes fade {
         from {opacity: .4}
         to {opacity: 1}
@@ -418,7 +426,7 @@ footer{
         border:3px solid #315343;
         background-color: #315343;
         color: #EEF9FD;
-        
+
     }
 
     .webshop-btn{
@@ -433,7 +441,7 @@ footer{
         width: 100%;
         height: 300px;
         margin-top: 3%;
-        
+
     }
 
     .historie-tekst{
@@ -458,15 +466,15 @@ footer{
         padding: 2% 0 0 10%;
     }
 
-    
-    
+
+
 
     .udfordringer-section{
         display: block;
         width: 100%;
         height: 300px;
         margin-top: 3%;
-        
+
     }
 
     .udfordringer-tekst{
@@ -491,7 +499,7 @@ footer{
         padding: 3% 5% 0 0;
         float: right;
     }
-  
+
 
 
     .kursus-section{
@@ -499,7 +507,7 @@ footer{
         width: 100%;
         height: 350px;
         margin-top: 3%;
-        
+
     }
 
     .kursus-tekst{
@@ -548,7 +556,7 @@ footer{
         border:3px solid #315343;
         background-color: #EEF9FD;
         color: #315343;
-        
+
     }
 
     footer{
@@ -600,7 +608,7 @@ footer{
 
     .footer3 img{
         float: left;
-        
+
     }
 
 

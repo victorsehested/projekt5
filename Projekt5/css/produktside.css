@@ -5,11 +5,7 @@
 }
 
 body {
-  background-image: linear-gradient(
-      rgba(255, 250, 245, 1),
-      rgba(252, 252, 252, 0.7)
-    ),
-    url("../img/background.jpg");
+    background: url("../img/bg-flip.png");
 }
 
 .transition-1 {
@@ -103,19 +99,6 @@ a:hover {
   width: 80vw;
   margin: 10vw;
   border-radius: 35px;
-  text-align: center;
-}
-
-footer {
-  font-family: "Poppins", sans-serif;
-  background-color: #a16d4e;
-  width: 100%;
-  margin: 10% 0% 0% 0%;
-  padding: 2%;
-}
-
-#little {
-  font-size: 70%;
   text-align: center;
 }
 
