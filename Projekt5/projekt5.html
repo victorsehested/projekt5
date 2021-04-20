@@ -5,7 +5,7 @@
  <meta charset= "UTF-8"> 
  <title>Trædrejeren</title>
  <link href="CSS/projekt5.css" rel="stylesheet" type="text/css">
- <script src="JS/projekt5.js" defer></script>
+ <script src="slideshow.js" defer></script>
  <meta name="viewport" content="width=device-width,initial-scale=1"> <!--Gør så inholdet på siden fylder hele skærmen på enheden -->  
 </head>
 
@@ -75,8 +75,99 @@
 
     <!--#region Produkt-Menu */ --> 
     <section class="produkt-menu">
-        
-        <div class="produkt1">
+
+        <div class="slideshow-container">
+
+
+      <!--#region slide1-->      
+        <div class="mySlides fade">
+
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+            <div class="inline">
+            <img src="IMG/produkt1.png" width="70%">
+            <h2>Skærebræt</h2>
+            <h3>Skærebræt med håndtag i eg<br>
+                30x20 cm <br>
+                DKK 150,-</h3>
+            <a href ="#"><button class="produkt-btn">Tilføj til indkøbskurv</button> </a>
+        </div>
+
+            <div class="inline">
+            <img src="IMG/produkt2.png" width="70%">
+            <h2>Grydeske</h2>
+            <h3>Grydeske trædrejet i eg<br>
+                20 cm <br>
+                DKK 100,-</h3>
+            <a href ="#"><button class="produkt-btn">Tilføj til indkøbskurv</button> </a>
+        </div>
+
+            <div class="inline">
+            <img src="IMG/produkt3.png" width="70%">
+            <h2>Skåle</h2>
+            <h3>Skåle i ahorn<br>
+                Højde 8 cm Ø 20 cm <br>
+                DKK 200,-</h3>
+            <a href ="#"><button class="produkt-btn">Tilføj til indkøbskurv</button> </a>
+        </div> 
+    </div>
+    <!--#endregion--> 
+
+
+          <!--#region slide2-->      
+          <div class="mySlides fade">
+
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+            <div class="inline">
+            <img src="IMG/produkt2.png" width="70%">
+            <h2>Skærebræt</h2>
+            <h3>Skærebræt med håndtag i eg<br>
+                30x20 cm <br>
+                DKK 150,-</h3>
+            <a href ="#"><button class="produkt-btn">Tilføj til indkøbskurv</button> </a>
+        </div>
+
+            <div class="inline">
+            <img src="IMG/produkt3.png" width="70%">
+            <h2>Grydeske</h2>
+            <h3>Grydeske trædrejet i eg<br>
+                20 cm <br>
+                DKK 100,-</h3>
+            <a href ="#"><button class="produkt-btn">Tilføj til indkøbskurv</button> </a>
+        </div>
+
+            <div class="inline">
+            <img src="IMG/produkt1.png" width="70%">
+            <h2>Skærebræt2</h2>
+            <h3>Skærebræt med håndtag i eg<br>
+                30x20 cm <br>
+                DKK 150,-</h3>
+            <a href ="#"><button class="produkt-btn">Tilføj til indkøbskurv</button> </a>
+        </div> 
+    </div>
+    <!--#endregion--> 
+
+    
+
+
+          <!-- Next and previous buttons -->
+
+
+        <div style="text-align:center">
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+          </div>
+
+
+
+
+
+
+        <!-- <div class="produkt1">
             <img src="IMG/produkt1.png" width="200px" height="200px">
             <h2>Skærebræt</h2>
             <h3>Skærebræt med håndtag i eg<br>
@@ -101,7 +192,7 @@
                 Højde 8 cm Ø 20 cm <br>
                 DKK 200,-</h3>
             <a href ="#"><button class="produkt-btn">Tilføj til indkøbskurv</button> </a>
-        </div>
+        </div> -->
         
     </section>
 
