@@ -18,6 +18,10 @@ body{
     display: static;
 }
 
+.desk-h3{
+    display: none;
+}
+
 header{
     background-color: #fff;
     width: 100%;
@@ -172,11 +176,15 @@ footer{
 /* #region Desktop design */
 
 
-@media only screen and (min-width: 1000px) {
+@media only screen and (min-width: 900px) {
 
 
     .br-mobile{
         display: none;
+    }
+
+    .desk-h3{
+        display: static;
     }
 
     header .header-brand{
