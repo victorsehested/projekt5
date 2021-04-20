@@ -416,6 +416,16 @@ nav{
         color: #315343;
     }
 
+    .produkt-btn:hover{
+        background-color: #315343;
+        color: #EEF9FD;
+        border:3px solid #EEF9FD;
+    }
+
+    .produkt-btn:active{
+        transform: scale(1.1);
+    }
+
 
 
     .til-webshop-btn{
@@ -429,6 +439,17 @@ nav{
         color: #EEF9FD;
 
     }
+
+    .til-webshop-btn:hover{
+        background-color: #fff;
+        color: #315343;
+        border:3px solid #315343;
+    }
+
+    .til-webshop-btn:active{
+        transform: scale(1.1);
+    }
+    
 
     .webshop-btn{
         display: block;
